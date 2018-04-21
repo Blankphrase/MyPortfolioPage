@@ -4,6 +4,7 @@
 }
 body {
   background-color: grey;
+  background-image: url(images/portfolio-image.png);
 }
 .edu {
   color: yellow;
@@ -13,4 +14,10 @@ body {
 }
 .list{
   color: yellow;
+}
+.setion {
+  float: right;
+}
+.secion{
+  float: left;
 }
