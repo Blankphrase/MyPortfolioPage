@@ -3,17 +3,18 @@
   color: blue;
 }
 body {
-  background-color: grey;
+  background-color: cream;
   background-image: url(images/portfolio-image.png);
 }
 .edu {
-  color: yellow;
+  color: grey;
 }
 #red {
-  color: red;
+  font-style: italic;
+  font-family: sans-serif;
 }
 .list{
-  color: yellow;
+  color: grey;
 }
 .setion {
   float: right;
