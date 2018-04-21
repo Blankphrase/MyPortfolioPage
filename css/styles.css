@@ -1,6 +1,7 @@
 .title {
   font-style: normal;
   color: DarkCyan;
+  text-decoration: underline;
 }
 body {
   background-color: silver;
