@@ -1,10 +1,14 @@
 .title {
   font-style: normal;
-  color: blue;
+  color: DarkCyan;
 }
 body {
-  background-color: cream;
-  background-image: url(images/portfolio-image.png);
+  background-color: silver;
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+  font-stretch: expanded;
+  font-weight: bold;
 }
 .edu {
   color: grey;
