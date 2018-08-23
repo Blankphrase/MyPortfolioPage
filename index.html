@@ -18,6 +18,7 @@
     <link href="css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -28,7 +29,7 @@
 
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
-      <i class="fas fa-bars"></i>
+      <i class="fa fa-bars"></i>
     </a>
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
@@ -56,88 +57,171 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <h1 class="mb-1">Clifford Kasera</h1>
-        <h3 class="mb-5">
-          <em>Dev | Statistician</em>
+        <h1 class="mb-1" style="color: white">Clifford Kasera</h1>
+        <hr>
+        <h3 class="mb-5" style="color: white; ">
+          <em style="font-size: 100">Full Stack Web Developer and Statistician</em>
         </h3>
+        <hr>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
       </div>
       <div class="overlay"></div>
     </header>
 
     <!-- About -->
-    <section class="content-section bg-light" id="about">
+    <section class="content-section bg-light d-flex mosthead" id="about">
       <div class="container text-center">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h2>Clifford Kasera is the perfect developer for your projects</h2>
-            <p class="lead mb-5">Projects that I have worked on  
-              <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://github.com/Blankphrase.com/" >Github</a><br>
-              <a href="#services">Tools</a>!</p>
-          </div>
+        <div class="image-container col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img src="images/kenyan.png" alt="" class="picture img-thumbnail">
+        </div>
+        <div class="about col-sm-12 col-md-7 col-lg-7" style="font-family: Source Sans Pro">
+          <h1>About Me</h1>
+          <p>I'm Clifford, a web developer and statistician.While I love analyzing data, coding software, and configuring systems, that's not all I do</p>
+          <p>When I'm not coding, I enjoy sports like rugby and soccer, and reading philosophical books.</p>
+        </div>
         </div>
       </div>
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
-      <div class="container">
+    <section class="content-section bg-primary text-white text-center d-flex " id="services">
+      <div class="container-fluid">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Tools</h3>
-          <h2 class="mb-5">Frameworks</h2>
+          <h1 class="text-white mb-0">Tools</h1>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Django</strong>
-            </h4>
-            <p class="text-faded mb-0">Inclusive of RESTful Api</p>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="services-detail">
+            <i class="fa fa-html5 color-1"></i>
+            <h3>Front End Design -UI</h3>
+            <hr>
+            <p>
+              I love ReactJS, I have done several frontends in Reactjs like
+              <a href="https://blog.zemuldo.com" target="_blank">This Blog
+              </a> and
+              <a href='https://dashboard.mobitill.com' target="_blank">Mobitill Dashboard</a>
+              <a href="https://fyipe.com" target="_blank">Fyipe</a> and
+              <a href="https://fupisha.io" target="_blank">Fupisha</a> are also a dashboard I did in ReactJS. HTML, CSS, SCSS, Webpack, StorybookJS, a little of Angular and
+              Vuejs.
+            </p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Flask</strong>
-            </h4>
-            <p class="text-faded mb-0">My Favourite Python Framework</p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="services-detail">
+            <i class="fa fa-code color-5"></i>
+            <h3>Backend Engineering</h3>
+            <hr>
+            <p>This is my favorite. I have couple of years with NodeJS server side programming implementing real time web applications
+              for IoT, payments and other solutions. I am learning Python now. </p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Angular</strong>
-            </h4>
-            <p class="text-faded mb-0">Jquery
-              <i class="fas fa-heart"></i>
-              Typescript</p>
+        </div>
+        
+      </div>
+      <br>
+      <br>
+      <br>
+      <span id="database" class="pre-myname">
+        <br>
+        <h3 class="center-align color-light-blue">DataBases SQL-NoSQL</h3>
+      </span>
+      <div class="row">
+        <div class="col-md-4 col-sm-5">
+          <div class="services-detail">
+            <i class="fa fa-database color-light-blue"></i>
+            <h3>SQL</h3>
+            <hr>
+            <p>I am an immediate level Oracle 12c Administrator. Able to do optimization, upgrade, configuration, security and Tuning.
+              PostgreSQL and MySQL are members of my club here.</p>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>React</strong>
-            </h4>
-            <p class="text-faded mb-0">Facebook...</p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="services-detail">
+            <i class="fa fa-database color-light-blue"></i>
+            <h3>NoSQL</h3>
+            <hr>
+            <p>
+              Being a complete fun of NodeJs ServerSide programming, I find it great working with MongoDB and RethinkDB. The combination
+              provides highly scalable applications and systems that are easy to manage, resource saving. I have configured sharded
+              and replicated cluster for both.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="services-detail">
+            <i class="fa fa-database color-light-blue"></i>
+            <h3>In-Memory</h3>
+            <hr>
+            <p>
+              For In-Memory databases, I know Redis is just the tool for the job. I use this for catching, session management and other
+              key value store database requirements that dont need persistent data.
+            </p>
           </div>
         </div>
       </div>
+      <br>
+      <br>
+      <br>
+      <span id="frameworks" class="pre-myname">
+        <br>
+        <h3 class="center-align color-light-blue">
+          <span class="color-white">Frame</span>
+          <span class="color-green">works</span>
+        </h3>
+      </span>
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="services-detail">
+            <i class="fa fa-code color-pink"></i>
+            <h3>Flask</h3>
+            <hr>
+            <p>
+              Well, I know Node is not a framework, instead its a Runtime Environment for JS. That being said, I have years of Nodejs experience.
+              Just try me. most of my previous projects have been done in NodeJS.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="services-detail">
+            <i class="fa fa-code color-pink"></i>
+            <h3>Django</h3>
+            <hr>
+            <p>
+              ExpressJS is the defacto web framework for NodeJS.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="services-detail">
+            <i class="fa fa-code color-3"></i>
+            <h3>Angular</h3>
+            <hr>
+            <p>
+              React is one of the most popular front end development libraries. I have more than 2 years experience doing ReactJS. Check
+              these out
+              <a href="https://blog.zemuldo.com" target="_blank">This Blog
+              </a> and
+              <a href='https://dashboard.mobitill.com' target="_blank">Mobitill Dashboard</a>
+              <a href="https://fyipe.com" target="_blank">Fyipe</a> and
+              <a href="https://fupisha.io" target="_blank">Fupisha</a> are also a dashboard I did in ReactJS
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+      </section>
+
+      </div>
     </section>
     <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
+    <section class="content-section bg-light mosthead" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Projects</h3>
-          <h2 class="mb-5">Recent Projects</h2>
+          <h1 class=" mb-0">Recent Projects</h1>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://slayinsta.herokuapp.com/">
               <span class="caption">
                 <span class="caption-content">
                   <h2>instagram</h2>
@@ -148,7 +232,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://minutesss.herokuapp.com/">
               <span class="caption">
                 <span class="caption-content">
                   <h2>Pitch</h2>
@@ -159,72 +243,57 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://househunt-group.herokuapp.com/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Github</h2>
-                  <p class="mb-0">The application uses the github Api to enable its users to search and view profiles and repositories in gihub</p>
+                  <h2>House Hunting</h2>
+                  <p class="mb-0">A website where real estate agents looking to market their houses can display them and users looking to rent or buy houses
+                  can book appointments to view the houses on display</p>
                 </span>
               </span>
-              <img class="img-fluid" src="images/github.png" alt="">
+              <img class="img-fluid" src="images/house.png" alt="">
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://socialreach.herokuapp.com/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Menza</h2>
-                  <p class="mb-0">A social media platform categorical of personality types</p>
+                  <h2>Social reach</h2>
+                  <p class="mb-0">A web application that that helps brands and social media influencers connect</p>
                 </span>
               </span>
-              <img class="img-fluid" src="images/menza.png" alt="">
+              <img class="img-fluid" src="images/social.png" alt="">
             </a>
           </div>
         </div>
       </div>
     </section>
-
+    
+    
+    <footer class="footer text-center content-section bg-primary" id="contact">
+     
     
     <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
-            </a>
+        <ul>
+          <li>
+            <a href="http://github.com/Blankphrase" target="_blank" class="text-white">github</a>
+            <i class="fa fa-github" aria-hidden="true"></i>
           </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
-            </a>
+          <li>
+            <a href="#" target="_blank" class="text-white">linkedin</a>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
           </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
-              <i class="icon-social-github"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="ckasera6486@gmail.com">
-              <i class="icon-email"></i>
+          <li>
+            <a href="mailto:ckasera6486@gmail.com" target="_blank" class="text-white">email</a>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
             </a>
           </li>
         </ul>
-        <p class="text-muted small mb-0">Clifford &copy; Portfolio </p>
-      </div>
+        <p class=" text-white"> &copy; Clifford Portfolio </p>
     </footer>
-    
-    <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-      </div>
-    </section>
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fas fa-angle-up"></i>
+      <i class="fa fa-sort-asc"></i>
     </a>
 
     <!-- Bootstrap core JavaScript -->
