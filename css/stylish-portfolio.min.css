@@ -26,3 +26,8 @@ hr {
 .mosthead{min-height:30rem;position:relative;display:table;width:100%;height:auto;padding-top:8rem;padding-bottom:8rem;background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%);background-position:center center;background-repeat:no-repeat;background-size:cover}
 
 .mosthead h1{font-size:2rem;margin:0;padding:0}@media (min-width:992px){.mosthead{height:100vh}.mosthead h1{font-size:3.5rem}}
+
+.mist {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
